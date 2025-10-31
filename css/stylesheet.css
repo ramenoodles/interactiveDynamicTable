@@ -7,12 +7,12 @@ table{
     overflow-y: auto;
 }
 
-tr:nth-child(even){
-    background-color:red;
+tr:nth-child(even){ /* Even rows get light gray for readability */
+    background-color: lightgray;
 }
 
-tr:nth-child(odd){
-    background-color:yellow;
+tr:nth-child(odd){ /* Odd rows get light blue for readability */
+    background-color: lightcyan;
 }
 
 td{
@@ -26,7 +26,9 @@ thead th{
 }
 
 
-th{
+th{ /* Header styling for readability*/
     padding-left: 5px;
     padding-right: 5px;
+    background-color: blue;
+    color: white
 }
