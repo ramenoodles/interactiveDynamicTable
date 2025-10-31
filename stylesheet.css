@@ -1,0 +1,32 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: solid black 1px;
+    overflow-y: auto;
+}
+
+tr:nth-child(even){
+    background-color:red;
+}
+
+tr:nth-child(odd){
+    background-color:yellow;
+}
+
+td{
+    padding: 5px;
+    padding-right:5px;
+    text-align: center;
+}
+
+thead th{
+    position: sticky;
+}
+
+
+th{
+    padding-left: 5px;
+    padding-right: 5px;
+}
