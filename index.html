@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplication Table</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+	
+  </head>
+  <body>
+    <h1>Dynamic Multiplication Table</h1>
+    
+    <h2>Please enter the table ranges</h2>
+    <h3>Enter integers between -50 and 50</h3>
+    <form id = "multTable">
+        <label for="minColumnValue">Minimum Column Value</label>
+        <input type="number" id="minColumnValue" name="minColumnValue"><br><br>
+    
+        <label for="maxColumnValue">Maximum Column Value</label>
+        <input type="number" id="maxColumnValue" name="maxColumnValue"><br><br>
+    
+        <label for="minRowValue">Minimum Row Value</label>
+        <input type="number" id="minRowValue" name="minRowValue"><br><br>
+    
+        <label for="maxRowValue">Maximum Row Value</label>
+        <input type="number" id="maxRowValue" name="maxRowValue"><br><br>
+    
+        <input type="submit" value="Submit">
+        
+    </form>
+    <div id="error"></div>
+    <script src="js/content.js"></script>
+  </body>
+</html>
