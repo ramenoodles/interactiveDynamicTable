@@ -1,3 +1,5 @@
+//Copyright Ram Senthil github @ramenoodles
+
 document.addEventListener("DOMContentLoaded", function() { //Make sure page is loaded before running script
 const form = document.getElementById("multTable");//Make form variable
 const table = document.createElement("table");//Create table element
